@@ -1,0 +1,36 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+/* custom-css */
+
+
+.logo-text {
+    font-size: 37px;
+    font-weight: 700;
+}
+
+.slider-description {
+    margin-bottom: 130px;
+}
+
+.slider-headline {
+    font-size: 70px;
+}
+
+.slider-des {
+    color: grey;
+}
+
+
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    opacity: .6;
+}
