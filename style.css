@@ -5,6 +5,9 @@ body {
 
 /* custom-css */
 
+section {
+    margin: 110px auto;
+}
 
 .logo-text {
     font-size: 37px;
@@ -33,4 +36,13 @@ body {
     right: 0;
     background-color: black;
     opacity: .6;
+}
+
+h5.text-white.bg-primary.rounded.w-50.text-center.p-1 {
+    opacity: .7;
+}
+
+.join-question-button h4 a {
+    text-decoration: none;
+    color: #0DCAF0;
 }
