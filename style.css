@@ -82,7 +82,7 @@ h5.text-white.bg-primary.rounded.w-50.text-center.p-1 {
 
 
 
-/* tablet-view-css-style */
+/* mobile-view-css-style */
 
 @media screen and (max-width: 576px) {
     body {
@@ -145,8 +145,30 @@ h5.text-white.bg-primary.rounded.w-50.text-center.p-1 {
         padding: 51px;
     }
 
+    .engagement-details h1 {
+        font-size: 20px;
+    }
+
+    .numbers {
+        flex-direction: column;
+        margin-top: 44px;
+        text-align: center;
+    }
+
+    .online-courses {
+        margin-bottom: 20px;
+    }
+
+    .expert-members {
+        margin-bottom: 20px;
+    }
+
 }
 
+
+
+
+/* tablet-view-css-style */
 
 @media screen and (min-width:576px)and (max-width:768) {
     .container {
@@ -161,4 +183,6 @@ h5.text-white.bg-primary.rounded.w-50.text-center.p-1 {
     .companies {
         display: none;
     }
+
+
 }
