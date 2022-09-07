@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-    margin: 0px;
+    margin: 0px 0px;
 }
 
 /* custom-css */
@@ -49,4 +49,89 @@ h5.text-white.bg-primary.rounded.w-50.text-center.p-1 {
 
 .footer-text {
     padding: 120px;
+}
+
+
+
+
+
+/* tablet-view-css-style */
+
+@media screen and (max-width: 576px) {
+    body {
+        overflow-x: hidden !important;
+    }
+
+    .container-details {
+        width: 100% !important;
+    }
+
+    .course-details h4 {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .course-details p {
+        text-align: center;
+    }
+
+    .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+
+    .carousel-item img {
+        height: 200px;
+    }
+
+    .slider-description {
+        margin-bottom: -130px;
+    }
+
+    .companies {
+        display: none;
+
+    }
+
+    .each-course {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .QA-section {
+        flex-direction: column;
+    }
+
+    .ask-to-join-question {
+        width: 100% !important;
+    }
+
+    .course-price {
+        margin: auto;
+    }
+
+    .fq-des {
+        margin: 0px 0px !important;
+    }
+
+    .footer-text {
+        padding: 51px;
+    }
+
+}
+
+
+@media screen and (min-width:576px)and (max-width:768) {
+    .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+
+    .each-course {
+        margin-bottom: 10px;
+    }
+
+    .companies {
+        display: none;
+    }
 }
