@@ -46,3 +46,7 @@ h5.text-white.bg-primary.rounded.w-50.text-center.p-1 {
     text-decoration: none;
     color: #0DCAF0;
 }
+
+.footer-text {
+    padding: 120px;
+}
