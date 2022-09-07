@@ -26,6 +26,33 @@ section {
     color: grey;
 }
 
+.engagement-details h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: cadetblue;
+}
+
+.rating {
+    margin: auto;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.online-courses {
+    margin: auto;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.expert-members {
+    margin: auto;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.numbers {
+    margin-top: 44px;
+}
 
 .carousel-item::before {
     content: "";
